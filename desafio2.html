@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Perfil Gonzalo</title>
+    <title>Página Gonzalo Miranda</title>
 </head>
+
 <body>
     <div>
         <h1>Pagina web de Gonzalo Miranda</h1>
@@ -14,6 +15,7 @@
     <div>
             <img src="https://cdn.discordapp.com/attachments/1113591574165733550/1113591614485573633/Captura.PNG" alt="Foto de perfil">   
     </div>
+<main>
     <div>
         <ul>
             <li>Edad: 22</li>
@@ -35,10 +37,14 @@
             <li>Asesoramiento ONLINE</li>
         </ul>
      </div>
-    <div>
+    </body>
+    <footer>
         <hr>
+<section>
+    <div>
         <h3>Contacto</h3>
                <p>Rellená el formulario para reservar un turno para asesoramiento/armado/reparación de PC.</p>
+    </div>
         <form>
             <div>
                 <label for="name">Nombre</label>
@@ -46,22 +52,38 @@
             </div>
             <div>
                 <label for="mail">Mail</label>
-                <input type="email" id="mail" placeholder="ejemplo@mail.com">
+                <input type="email" id="mail" placeholder="ejemplo@mail.com" required>
             </div>
+            <div>
+                <label for="celular">Teléfono (SIN 0 NI 15)</label>
+                <input type="text" id="celular" placeholder="11-------" name="celular" required>
+            </div>
+            <h3>Elegí el servicio a realizar:</h3>
             <div>                
                 <input type="checkbox" id="Especialidad">
                 <label for="Especialidad">Asesoramiento</label>
-
+            </div>
+            <div>
                 <input type="checkbox" id="Especialidad">
                 <label for="Especialidad">Armado</label>
-
+            </div>
+            <div>
                 <input type="checkbox" id="Especialidad">
                 <label for="Especialidad">Reparación</label>
-
+            </div>
+            <div>
                 <input type="checkbox" id="Especialidad">
                 <label for="Especialidad">Mantenimiento</label>
             </div>
+            <div>
+                <p>En breves le estará llegando un mail con información sobre los próximos turnos disponibles.</p>
+            </div>
+            <div>
+                <input type="submit" value="Enviar">
+            </div>
         </form>
-    </div>
-</body>
+        
+</section>
+</footer>
+</main>
 </html>
